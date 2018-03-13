@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans";
+    color: white;
+    margin: auto;
+}
+
+section {
+    padding: 50px 250px;
+}
+
+.main {
+    background-image: url(/img/slide_03.jpg);
+    height:650px;
+}
+
+.main_text {
+    text-align: center;
+}
+
+.what-we-do, .numbers {
+    height: 300px;
+    text-align: center;
+}
+
+.offers {
+    background-image: url(/img/what-we-do-bg.png);
+    height: 400px;
+}
+
+.blog {
+    background-image:  url(/img/blog-bg.png);
+}
+
+.contact {
+    background-image: url(/img/contact-bg.png)
+}
+
+section:nth-child(even) {
+    color: black;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 20px;
+    width: 20%;
+    float: right;
+}
+
+.offers_text {
+    width: 50%;
+    float: left;
+}
+
+.offers_img {
+    float: right;
+}
+
+.action_button {
+    background: #a2cf8e;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
