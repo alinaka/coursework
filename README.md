@@ -1,5 +1,8 @@
-# coursework
+Local setup
 
-Лэндинг-страница по шаблону, создана в качестве курсовой работы по модулю верстки на курсах ЦДПО ИТМО (февраль-июль 2018 г.)
+1. Make sure you have Node.js installed (current LTS or newer)
 
+2. Install dependencies via `npm install`
+
+3. Run `npm start` for running development server
 

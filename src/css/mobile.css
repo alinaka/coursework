@@ -1,0 +1,124 @@
+@media (max-width: 1400px) {
+
+
+    header {
+        min-width: 85vw;
+    }
+
+    .blog_gallery {
+        justify-content: center;
+    }
+
+    .blog_gallery__item {
+        width: auto;
+        margin-bottom: 1rem;
+
+    }
+    .project-item .thumb {
+        width: 100%;
+    }
+
+    .box_numbers {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .service-item {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .primary-button, .white-button {
+        font-size: 0.7rem;
+    }
+
+    .contact .contact_box {
+        height: 250px;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .header .navbar-brand {
+        padding-left: 0;
+    }
+
+}
+
+/*стили для телефонов */
+
+@media (max-width: 767px) {
+
+    section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .col-left, .col-right {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        height: 80vh
+    }
+
+    .carousel-caption {
+        font-size: 0.8rem;
+    }
+
+    .main_text {
+        width: auto;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    /*.top-nav {*/
+        /*display: flex;*/
+        /*flex-flow: column wrap;*/
+        /*padding: 0;*/
+    /*}*/
+
+    .offers_box {
+        max-width: 100%;
+        margin: 10% 0;
+    }
+
+    .col-left .blog_img,
+    .col-left .blog_text {
+        margin-right: 0;
+    }
+
+    .blog_gallery__item {
+        margin-bottom: 1rem;
+    }
+
+    .contact {
+        height: 750px;
+    }
+
+    #main-nav {
+        border-color: rgba(250, 250, 250, 0.95);
+        margin-top: 16px;
+        background-color: rgba(250, 250, 250, 0.95)!important;
+        box-shadow: 0 5px 10px #cdcdcd;
+    }
+    .navbar-nav {
+        padding: 0;
+        margin-top: 0;
+
+    }
+    .navbar-nav>li {
+        margin-left: 0;
+        border-bottom: 1px solid #eee;
+    }
+    .navbar-nav>li:last-child {
+        border-bottom: none;
+    }
+    .navbar-nav>li>a {
+        line-height: 50px;
+        color: #121212!important;
+    }
+
+    .navbar-brand {
+        margin-right: auto
+    }
+}
